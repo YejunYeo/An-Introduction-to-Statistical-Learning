@@ -62,7 +62,73 @@ training error decreases,
 test error probably decreaes for a bit and then increaes as the model overfits
 bayes error just stays the same
 
-TODO - investigate why bias decreases
+4
+
+You will now think of some real-life applications for statistical learn- ing.
+(a) Describe three real-life applications in which classification might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.
+(b) Describe three real-life applications in which regression might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.
+(c) Describe three real-life applications in which cluster analysis might be useful.
+
+a) 
+- Find out if this person has blood ancer
+- Whether stock price goes up or down
+- Spam detection
+
+b) 
+
+- Price of house after x years
+- The likelihood of fire
+- Exam scores
+
+
+c)
+
+- Identifying different groups of customers
+- Identifying people by age group
+- Organize people by height
+	
+5) What are the advantages and disadvantages of a very flexible (versus a less flexible) approach for regression or classification? Under what circumstances might a more flexible approach be preferred to a less flexible approach? When might a less flexible approach be preferred?
+
+
+Depends on sample size and whether we know anything about the curve
+
+If n is small, then we go with a less flexiblee approach 
+If n is large, then we can go with a more flexible approach
+
+
+6) Describe the differences between a parametric and a non-parametric statistical learning approach. What are the advantages of a para- metric approach to regression or classification (as opposed to a non- parametric approach)? What are its disadvantages?
+
+
+Non-parametric models:
+- They require a lot of data since they don't make assumptions about the shape of model
+- There is a danger of overfitting
+
+
+
+7)
+
+a) 9, 4, 10, 5, 2, 3
+
+b) Green because its the closest to the 5th observation	
+
+c) Red because the 2nd and 3rd closest observation is Red.
+
+d)
+
+When K is smaller, The model is more sensitive to change
+
+Meaning that the variance increases
+
+If K is 1, then there will likely be many islands. For obvious reasons
+
+If K is large, then islands happen to dissappear so the curves become smoother
+
+
+For a lot of spiky shit and zigzags we need K to be really small
+
+so K should be smaller for non-linear Bayes Decision boundaries
+
+
 
 
 
